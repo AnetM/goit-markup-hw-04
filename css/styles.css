@@ -193,6 +193,18 @@ h2 {
 
 /* Преимущества */
 
+.list-item {
+  display: flex;
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+
+  background-color: var(--icon-background-color);
+}
+
+.list-item .icon {
+  margin: auto;
+}
 /* .list-item::before {
   display: block;
   content: "";
@@ -203,7 +215,7 @@ h2 {
   background-color: var(--icon-background-color);
 } */
 
-.icon-satellite::before {
+/* .icon-satellite::before {
   background-image: url(../img/satellite.svg);
   background-size: auto;
 }
@@ -218,7 +230,7 @@ h2 {
 
 .icon-spaceman::before {
   background-image: url(../img/spaceman.svg);
-}
+} */
 
 .feature-list .title {
   color: var(--title-color);
