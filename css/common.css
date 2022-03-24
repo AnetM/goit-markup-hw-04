@@ -98,10 +98,13 @@ body {
 .auth-nav.list {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
-.tel {
-  margin-left: 50px;
+.mail-box,
+.phone-box {
+  display: flex;
+  align-items: center;
 }
 
 .mail,
@@ -113,6 +116,12 @@ body {
   letter-spacing: 0.02em;
 
   text-decoration: none;
+  margin: 0;
+}
+
+.mail-icon:hover,
+.phone-icon:hover {
+  fill: var(--accent-color);
 }
 
 .mail:hover,

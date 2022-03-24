@@ -129,10 +129,32 @@ h2 {
 .auth-nav.list {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
-.tel {
-  margin-left: 50px;
+.phone-icon,
+.mail-icon {
+  margin-right: 10px;
+  fill: #757575;
+}
+
+.mail-icon:hover,
+.phone-icon:hover {
+  fill: var(--accent-color);
+}
+
+.mail-box,
+.phone-box {
+  display: flex;
+  align-items: center;
+}
+
+.mail-box:hover {
+  color: var(--accent-color);
+}
+
+.mail-box {
+  margin-right: 30px;
 }
 
 .mail,
