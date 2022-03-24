@@ -12,6 +12,7 @@
   --hero-adress-title-color: #ffffff;
   --accent-color: #2196f3;
   --icon-background-color: #f5f4fa;
+  --icon-fill-color: #ffffff;
 }
 
 body {
@@ -294,11 +295,40 @@ h2 {
 }
 
 .employee.box {
+  width: 270px;
   background-color: #ffffff;
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(0, 0, 0, 0.12);
 
   margin-bottom: 94px;
+}
+
+.employee-links {
+  display: flex;
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.link-box {
+  display: flex;
+  width: 44px;
+  height: 44px;
+}
+
+.link-box:hover {
+  width: 44px;
+  height: 44px;
+  background-color: var(--accent-color);
+  border-radius: 50%;
+}
+
+.link-icon {
+  margin: auto;
+  fill: #afb1b8;
+}
+
+.link-icon:hover {
+  fill: var(--icon-fill-color);
 }
 
 /* Button */
